@@ -1,0 +1,34 @@
+/*
+25.
+
+E E E E E
+ D D D D
+  C C C
+   B B
+    A
+*/
+
+
+class AssigQ25
+{
+	public static void main(String[] arge)
+	{
+	
+	for(int i=5;i>0;i--)
+	{
+	char ch ='E';
+	for(int j=5;j>=i;j--)
+	{
+	System.out.print(" ");
+	}
+	char ch1 = ch;
+	for(int j=1;j<=i;j++)
+	{
+	System.out.print(ch1+" ");
+	ch1++;
+	}
+	ch--;
+	System.out.println();
+	}
+	}
+}
